@@ -1,0 +1,28 @@
+https://www.kaggle.com/datasets/anishabhattad16/allhpc
+
+
+https://www.kaggle.com/datasets/anishabhattad16/deeplearning
+
+https://github.com/Shradha1304/myrepo
+
+STARTING COMMANDS FOR CUDA :
+
+# Check CUDA version
+!nvcc --version
+
+# Install CUDA package
+!pip install git+https://github.com/afnan47/cuda.git
+
+# Load nvcc plugin
+%load_ext nvcc_plugin
+
+OUTPUT COMMANDS FOR CUDA :
+!nvcc filename.cu -o filename
+!./filename
+
+-----------------------------
+COMMANDS FOR TERMINAL :
+
+1. cat filename.cpp
+2. g++ -o filename –fopenmp filename.cpp
+3. ./filename
